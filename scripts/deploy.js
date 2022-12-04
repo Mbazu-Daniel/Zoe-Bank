@@ -22,7 +22,7 @@ console.log("Zoe Bank deployed to: ", zoe.address);
   // Verify the Zoe Bank  contract after deploying
   await hre.run("verify:verify", {
     contract: "contracts/Zoe.sol:Zoe",
-    address: accounts.address,
+    address: zoe.address,
     constructorArguments: [],
   });
 

@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Daniel Mbazu\\Documents\\Projects\\HiMark\\Grandida-Bank\\smartcontract\\contracts\\Zoe.sol": {
+      "lastModificationDate": 1670189845088,
+      "contentHash": "2999a97e14c2d09a1d576b718eca02fe",
+      "sourceName": "contracts/Zoe.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Zoe"
+      ]
+    }
+  }
+}
